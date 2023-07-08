@@ -16,30 +16,7 @@
     
 }
 
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 
-}
-ul {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-body {
-  font-family: "Poppins", sans-serif;
-  font-size: 30px;
-  font-weight: 300;
-  background-color: #e8f0f7;
-  height: 100vh;
-  padding-top: 90px;
-  
-} */
 
 /* navigacija */
 .wrapper{
@@ -96,6 +73,9 @@ nav .content .links{
   padding: 9px 17px;
   border-radius: 5px;
   transition: all 0.3s ease;
+  background: #13161A;
+  
+
   
 }
 
@@ -219,6 +199,7 @@ nav .content .links{
   float: left;
   margin: 5px;
   margin-left: 20px;
+  margin-right: 15px;
   width: 180px;
   margin-top: 20px;
 
@@ -235,7 +216,7 @@ nav .content .links{
 .naslov h1{
   font-size: 30px;
 /*  color: white;*/
-  color: #000000;
+  color: #873a3a;
 
 }
 
@@ -410,7 +391,7 @@ font-weight: 600;
   nav .content .links{
     display: block;
     position: fixed;
-    background: #2a323e;
+    background: #1d2227;
     height: 100%;
     width: 100%;
     top: 70px;
@@ -438,6 +419,15 @@ font-weight: 600;
   .content .links li a.desktop-link{
     display: none;
   }
+  .izgled-stranice img {
+    float: left;
+    margin: 15px;
+    margin-left: 20px;
+    margin-right: 15px;
+    width: 180px;
+    margin-top: 20px;
+  
+  }
 
   /* dropdown responsive code start */
   .content .links ul,
@@ -461,6 +451,10 @@ font-weight: 600;
     font-size: 18px;
     line-height: 30px;
     border-radius: 5px!important;
+  }
+  .yt-video iframe{
+    max-width: 320px;
+    max-height: 200px;
   }
 }
 
@@ -499,6 +493,10 @@ font-weight: 600;
   .wrapper .search-box input{
     padding-right: 30px;
   }
+  .yt-video iframe{
+    max-width: 320px;
+    max-height: 200px;
+  }
 }
 
 @media screen and (max-width: 445px){
@@ -535,6 +533,10 @@ font-weight: 600;
   padding: 9px 17px;
   border-radius: 5px;
   transition: all 0.3s ease;
+}
+.yt-video iframe{
+  max-width: 320px;
+  max-height: 200px;
 }
 }
 
@@ -634,6 +636,7 @@ font-weight: 600;
   float: left;
   margin: 5px;
   margin-left: 20px;
+  margin-right: 15px;
   width: 90px;
   margin-top: 20px;
 
@@ -657,12 +660,12 @@ font-weight: 600;
 /* kategorije  */
 .linkovinadnu a {
   text-align: justify;
-  font-size: 14px;
+  font-size: 10px;
   color: rgb(139, 33, 33);
   text-decoration: none;
-  padding: 5px 10px;
+  padding: 1px 2px 5px 5px;
   text-decoration: none;
-  float: right;
+  float: left;
 }
 .mojaocena{
 font-size: 12px;
@@ -671,8 +674,8 @@ float: left;
 margin: 3px 0px 3px 10px;
 }
 .yt-video iframe{
-  max-width: 600px;
-  max-height: 300px;
+  max-width: 320px;
+  max-height: 200px;
 }
 
 

@@ -719,6 +719,17 @@ i#next {
   padding: 5px 10px;
 }
 
+.procitajjos {
+  text-align: justify;
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 5px 10px;
+ float: right;
+ margin-top: -30px;
+ margin-right: -6px;
+}
+
 .naslov h1{
   font-size: 18px;
 /*  color: white;*/

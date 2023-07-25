@@ -698,7 +698,7 @@ i#next {
   padding-bottom: 20px;
   /* max-height: 500px; */
   box-shadow: 5px 10px 5px #a1a7b0;
-
+  
 }
 
 .izgled-stranice img {
@@ -717,17 +717,18 @@ i#next {
   color: rgb(0, 0, 0);
   text-decoration: none;
   padding: 5px 10px;
+  word-spacing: 1px;
 }
 
 .procitajjos {
   text-align: justify;
-  font-size: 14px;
+  font-size: 16px;
   color: rgb(0, 0, 0);
   text-decoration: none;
   padding: 5px 10px;
  float: right;
- margin-top: -30px;
- margin-right: -6px;
+ margin-top: 1px;
+ margin-right: 6px;
 }
 
 .naslov h1{
@@ -744,11 +745,11 @@ i#next {
   color: rgb(139, 33, 33);
   text-decoration: none;
   padding: 1px 2px 5px 5px;
+  margin-right: 3px;
   text-decoration: none;
-  float: left;
 }
 .mojaocena{
-font-size: 12px;
+font-size: 14px;
 font-weight: 500;
 float: left;
 margin: 3px 0px 3px 10px;

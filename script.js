@@ -10,7 +10,7 @@ let imageIndex = 1,
 // Define function to start automatic image slider
 const autoSlide = () => {
   // Start the slideshow by calling slideImage() every 2 seconds
-  intervalId = setInterval(() => slideImage(++imageIndex), 2000);
+  // intervalId = setInterval(() => slideImage(++imageIndex), 2000) ovo obrisi ako hoces auto shuffle za galeriju;
 };
 // Call autoSlide function on page load
 autoSlide();

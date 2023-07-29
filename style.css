@@ -386,8 +386,8 @@ i#next {
   right: 25px;
 }
 .image-container {
-  height: 320px;
-  max-width: 500px;
+  max-width: 600px;
+  max-height: 300px;
   width: 100%;
   overflow: hidden;
 }
@@ -801,8 +801,8 @@ i#next {
   right: 25px;
 }
 .image-container {
-  height: 320px;
-  max-width: 500px;
+  max-width: 320px;
+  max-height: 200px;
   width: 100%;
   overflow: hidden;
 }

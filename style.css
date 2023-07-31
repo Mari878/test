@@ -157,6 +157,8 @@ nav .content .links{
   z-index: -1;
   opacity: 0;
   visibility: hidden;
+  max-height: 500px;
+  overflow-y: scroll;
 }
 .content .links li:hover > ul{
   top: 70px;

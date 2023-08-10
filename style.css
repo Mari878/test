@@ -509,7 +509,7 @@ i#next {
     visibility: visible;
     background: none;
     max-height: 0px;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
   .content .links #show-features:checked ~ ul,
   .content .links #show-services:checked ~ ul,
